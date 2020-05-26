@@ -198,10 +198,6 @@ country_event = {
 
 	trigger = {
 		has_ascension_perk = ap_psionic_perfection
-		OR = {
-			has_authority = auth_psiocratic
-			has_authority = auth_hive_mind
-		}
 		NOT = {
 			has_country_flag = psiperfection
 		}
@@ -546,7 +542,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_civic = civic_shrouded_origins
+		has_origin = civic_shrouded_origins
 		NOT = {
 			has_country_flag = psishrouded
 		}
@@ -554,8 +550,38 @@ country_event = {
 	
 	immediate = {
 		give_technology = {
-			tech = tech_psionic_theory		
+			tech = tech_psionic_theory
+			message = no
 		}
 		set_country_flag = psishrouded
+		capital_scope = {
+			set_planet_size = 25	
+		
+			# 5 + 3 energy		
+			add_deposit = d_searing_desert			
+			add_deposit = d_underwater_vent
+			add_deposit = d_tempestous_mountain			
+		
+			# 5 + 3 mining
+			add_deposit = d_ore_rich_caverns 		
+			add_deposit = d_prosperous_mesa
+			add_deposit = d_submerged_ore_veins
+		
+			# 5 + 3 farming
+			add_deposit = d_lush_jungle	
+			add_deposit = d_teeming_reef		
+			add_deposit = d_black_soil		
+		
+			# 1 random medium deposit
+			random_list = {
+				33 = { add_deposit = d_frozen_gas_lake }
+				33 = { add_deposit = d_prosperous_mesa }
+				33 = { add_deposit = d_fertile_lands }
+			}	
+		
+			add_deposit = d_dust_caverns
+			add_deposit = d_bubbling_swamp
+			add_deposit = d_crystalline_caverns
+		}
 	}
 }

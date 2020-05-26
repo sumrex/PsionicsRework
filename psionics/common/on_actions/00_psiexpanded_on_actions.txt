@@ -16,5 +16,6 @@ on_tech_increased = {
 on_game_start_country = {
 	events = {
 		psiexpanded.4
+		shrouded_origin_home_planet_setup
 	}
 }

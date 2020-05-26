@@ -14,6 +14,7 @@ civic_psionic_descendants = {
 	random_weight = { base = 5 }
 	modifier = {
 		country_unity_produces_mult = 0.15
+		ship_archaeological_site_excavation_speed_mult = 0.1
 	}
 }
 
@@ -249,21 +250,15 @@ civic_psionic_subsumed_telepathy = {
 civic_shrouded_origins = {
 	is_origin = yes
 	potential = {
-		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		ethics = { 
+			NOR = { 
+				value = ethic_gestalt_consciousness 
+				} 
+			}
 		authority = { NOT = { value = auth_corporate } }
 	}
 	possible = {
-		civics = {
-			NOR = {
-				value = civic_inwards_perfection
-				value = civic_post_apocalyptic
-				value = civic_mechanists
-				value = civic_syncretic_evolution
-				value = civic_fanatic_purifiers
-				value = civic_life_seeded
-				value = civic_barbaric_despoilers
-			}
-		}		
+		authority = { value = auth_psiocratic }	
 	}
 	modifier = {
 		all_technology_research_speed = -0.2

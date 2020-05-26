@@ -1,4 +1,4 @@
-version="2.5.*"
+version="2.6.*"
 tags={
 	"Buildings"
 	"Military"
@@ -12,6 +12,6 @@ tags={
 }
 name="Psionics Re-Re-Expanded"
 picture="psionics.png"
-supported_version="2.5.*"
+supported_version="2.7.*"
 path="C:/Users/theob/Documents/Paradox Interactive/Stellaris/mod/psionics"
 remote_file_id="2019820989"

@@ -1,0 +1,685 @@
+@gaiaCost = 10000
+@gaiaTime = 7200
+
+@machineCost = 10000
+@machineTime = 7200
+
+@hiveCost = 10000
+@hiveTime = 7200
+
+
+#######################
+## Shrouded Paradise ##
+#######################
+
+terraform_link = {
+	from = "pc_prairie"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_antarctic"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_snow"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_glacial"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_frozen_desert"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_steppe"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_hadesert"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_boreal"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_highland"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_sandsea"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_subarctic"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_cascadian"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_swamp"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_mangrove"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_wetswamp"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_desertislands"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_mesa"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_outback"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_oasis"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_hajungle"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_mushroom"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_retinal"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_forest"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_med"
+	to = "pc_shrouded_paradise"
+	
+	energy = @gaiaCost
+	duration = @gaiaTime
+	
+	potential = {
+		has_ascension_perk = "ap_psionic_veil"
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0	
+			resource_stockpile_compare = { resource = energy value < 40000 }
+		}
+		modifier = {
+			factor = 0
+			OR = {		
+				is_mechanical_empire = yes
+				is_cyborg_empire = yes
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+}
