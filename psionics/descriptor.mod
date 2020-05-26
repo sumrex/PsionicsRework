@@ -1,0 +1,17 @@
+version="2.5.*"
+tags={
+	"Buildings"
+	"Military"
+	"Economy"
+	"Events"
+	"Spaceships"
+	"Species"
+	"Technologies"
+	"Leaders"
+	"Gameplay"
+}
+name="Psionics Re-Re-Expanded"
+picture="psionics.png"
+supported_version="2.5.*"
+path="C:/Users/theob/Documents/Paradox Interactive/Stellaris/mod/psionics"
+remote_file_id="2019820989"
