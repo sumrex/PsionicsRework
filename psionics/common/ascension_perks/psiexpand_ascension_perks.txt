@@ -25,7 +25,7 @@ ap_psionic_veil = {
 	}
 	
 	ai_weight = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -70,6 +70,6 @@ ap_psionic_perfection = {
 	}
 	
 	ai_weight = {
-		factor = 10
+		factor = 0
 	}
 }

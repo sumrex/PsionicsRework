@@ -1,0 +1,7 @@
+#Shrouded Paradise
+pm_shrouded_paradise = {
+	spawn_chance = {
+		value = 0
+	}
+	modifier = "psiexpanded_shrouded_paradise"
+}

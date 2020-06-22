@@ -1,0 +1,27 @@
+##########################################################################
+# Decisions
+##########################################################################
+decision_shrouded_paradise = {
+	owned_planets_only = yes
+	sound = event_laboratory_sound
+	icon = decision_resources
+	resources = {
+		category = decisions
+		cost = {
+			energy = 10000
+		}
+	}
+	potential = {
+		owner = { has_ascension_perk = "ap_psionic_veil" }
+		always = no
+	}
+	allow = {
+		NOT = { has_modifier = "pm_shrouded_paradise" }
+	}
+	effect = {
+		add_modifier = { modifier = "pm_shrouded_paradise" }
+	}
+	ai_weight = {
+		weight = 5
+	}
+}

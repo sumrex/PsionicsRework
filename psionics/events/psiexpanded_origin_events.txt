@@ -1,0 +1,13 @@
+planet_event = {
+	id = psiexpanded.5
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		owner = {
+			has_origin = civic_shrouded_origins
+		}
+	}
+	immediate = {
+		add_deposit = pm_shrouded_paradise
+	}
+}

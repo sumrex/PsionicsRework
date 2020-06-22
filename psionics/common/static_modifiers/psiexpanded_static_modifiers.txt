@@ -1,0 +1,4 @@
+psiexpanded_shrouded_paradise = {
+	pop_government_ethic_attraction = 0.25
+	planet_orbital_bombardment_damage = -0.25
+}

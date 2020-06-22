@@ -245,26 +245,3 @@ civic_psionic_subsumed_telepathy = {
 		ruler_skill_levels = 2
 	}
 }
-
-#Shrouded World
-civic_shrouded_origins = {
-	is_origin = yes
-	potential = {
-		ethics = { 
-			NOR = { 
-				value = ethic_gestalt_consciousness 
-				} 
-			}
-		authority = { NOT = { value = auth_corporate } }
-	}
-	possible = {
-		authority = { value = auth_psiocratic }	
-	}
-	modifier = {
-		all_technology_research_speed = -0.2
-	}
-	starting_colony = pc_shrouded_paradise
-	description = "civic_tooltip_shrouded_origins_effects"
-
-	random_weight = { base = 1 }
-}
